@@ -12,7 +12,7 @@ Options:
   -h, --help  show this help message and exit
   -d DIR      Dir to scan for matching files with matching imphashes.
 
-Example Usage
+Example Usage 
 =====
 $ ./impscan.py f7b824bdc1f89763a2dee17f68c0aa9f -d /malware/report/2014/07 -d /malware/report/2014/09
 f7b824bdc1f89763a2dee17f68c0aa9f /malware/report/2014/07/20140731-01/malware/8d248e6d41f8954edc33f98ac38249a2cc94fd3dfeff7bbe64c33c3fed78e0ec
