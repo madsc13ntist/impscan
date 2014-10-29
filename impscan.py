@@ -90,7 +90,7 @@ if __name__ == "__main__":
         exit(1)
 
     if len(options.dir) < 1 and len(DIRS_TO_SCAN) < 1:
-        options.dirs.append('.')
+        options.dir.append('.')
     else:
         for d in DIRS_TO_SCAN:
             options.dir.append(d)
